@@ -55,4 +55,11 @@ form button {
 .entry {
     border: 2px solid white;
     width: 100%;
+    padding: 10px;
+}
+.entry p {
+    color: green;
+}
+h3 {
+    color: white;
 }

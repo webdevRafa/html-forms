@@ -21,7 +21,7 @@ const showEntries = () => {
         const entryDiv = document.createElement('div');
         entryDiv.classList.add('entry');
         entryDiv.innerHTML = `
-        <h3>Entry ${index + 1}</h3>
+        <h3 class="custom-font">Entry ${index + 1}</h3>
         <p>Name: ${entry.name}</p>
         <p>Email: ${entry.email}</p>
         <p>Message: ${entry.message}<p>
