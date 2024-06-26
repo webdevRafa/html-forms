@@ -3,12 +3,40 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>HTML Forms</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   
 </head>
 <body>
-    
+    <main>
+        <section>
+            <h1 class="custom-font">Hi there</h1>
+            <p>please submit your name, email and a message.</p>
+            <form id="user-form">
+                <div>
+                    <label class="custom-font" for="name">Name:</label>
+                <input type="text" id="name" name="name" />
+                </div>
+              <div>
+                <label class="custom-font" for="email">Email:</label>
+                <input type="email" id="email" name="email" />
+              </div>
+              <div>
+                <label class="custom-font" for="form-message">Your message:</label><br>
+                <textarea name="message" id="form-message"></textarea>
+              </div>
+              <button class="custom-font" type="submit">Submit</button>
+            </form>
+        </section>
+        <h1 id="count"></h1>
+       <section id="entries-section">
+        
+       </section>
+    </main>
+    <script src='main.js'></script>
 </body>
 </html>

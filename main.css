@@ -1,0 +1,58 @@
+body {
+    background: black;
+}
+main h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+}
+section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+main p {
+    color: rgb(215, 215, 215);
+    text-align: center;
+    margin-top: 0;
+}
+form {
+    margin: 0 auto;
+    width: 300px;
+}
+form label {
+    color: white;
+}
+form div {
+    margin-bottom: 5px;
+}
+form input {
+    width: 100%;
+    border: none;
+}
+#form-message {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(253, 226, 226);
+    border: none;
+}
+form button {
+    border: none;
+    padding: 5px;
+}
+.custom-font {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#entries-section {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    gap: 5px;
+}
+.entry {
+    border: 2px solid white;
+    width: 100%;
+}
